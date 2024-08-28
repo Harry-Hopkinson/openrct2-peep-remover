@@ -2,9 +2,7 @@
 
 A plugin for OpenRCT2 that allows you to easily remove guests from your park.
 
-<div align="center">
-    <img src="image.png" alt="Screenshot" width="500"/>
-</div>
+![(OpenRCT2 Guest Remover)](https://raw.githubusercontent.com/Harry-Hopkinson/openrct2-guest-remover/main/image.png)
 
 ## Features
 
