@@ -1,0 +1,27 @@
+{
+  "name": "openrct2-guest-remover",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A plugin for OpenRCT2 that allows you to easily remove many guests at once.",
+  "scripts": {
+    "start": "nodemon --watch ./src --ext js,ts --exec \"npm run build:dev\"",
+    "build": "rollup --config rollup.config.js --environment BUILD:production",
+    "build:dev": "rollup --config rollup.config.js",
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.2.5",
+    "rollup": "^4.0.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "openrct2-flexui": "^0.1.0-prerelease.15"
+  }
+}
