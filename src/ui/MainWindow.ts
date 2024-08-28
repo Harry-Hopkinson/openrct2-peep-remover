@@ -1,12 +1,13 @@
 import { button, label, window } from "openrct2-flexui";
 import { PeepSelect } from "./PeepSelect";
-import { RemovePeep } from "../misc/RemovePeeps";
-import { GuestIds } from "../misc/stores";
+import { RemovePeep } from "../utils/RemovePeeps";
+import { GuestIds } from "../utils/stores";
+import { PeepMessage } from "../utils/PeepMessage";
 
 export const MainWindow = window({
-  title: "Guest Remover",
+  title: "Peep Remover",
   width: { value: 150, min: 150, max: 150 },
-  height: { value: 135, min: 135, max: 135 },
+  height: { value: 165, min: 165, max: 165 },
   content: [
     button({
       image: "eyedropper",
@@ -29,7 +30,12 @@ export const MainWindow = window({
       text: "Remove selected peeps",
     }),
     button({
-      text: "Cancel",
+      text: "Show Selected Peeps",
+      height: 23,
+      onClick: () => PeepMessage(),
+    }),
+    button({
+      text: "Cancel Selection",
       height: 23,
       onClick: () => GuestIds.set([]),
     }),

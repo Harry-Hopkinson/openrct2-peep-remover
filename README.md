@@ -1,8 +1,8 @@
-# OpenRCT2 Guest Remover
+# OpenRCT2 Peep Remover
 
 A plugin for OpenRCT2 that allows you to easily remove guests from your park.
 
-![(OpenRCT2 Guest Remover)](https://raw.githubusercontent.com/Harry-Hopkinson/openrct2-guest-remover/main/image.png)
+![(OpenRCT2 Peep Remover)](https://raw.githubusercontent.com/Harry-Hopkinson/openrct2-guest-remover/main/image.png)
 
 ## Features
 

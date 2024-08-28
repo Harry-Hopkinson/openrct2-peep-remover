@@ -1,5 +1,5 @@
 export const name = "openrct2-guest-remover";
-export const version = "1.0.1";
+export const version = "1.0.2s";
 export const type = "intransient";
 export const license = "MIT";
 

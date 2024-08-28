@@ -1,4 +1,4 @@
-import { GuestIds } from "../misc/stores";
+import { GuestIds } from "../utils/stores";
 
 export function PeepSelect() {
   ui.activateTool({
