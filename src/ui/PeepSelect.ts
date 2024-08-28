@@ -1,4 +1,4 @@
-import { PeepIds } from "../utils/stores";
+import { PeepIds, MultiSelectMode } from "../utils/stores";
 
 export function PeepSelect() {
   ui.activateTool({
@@ -19,7 +19,7 @@ export function PeepSelect() {
           return;
         }
         PeepIds.set([...PeepIds.get(), EntityId]);
-        ui.tool?.cancel();
+        if (!MultiSelectMode.get()) return ui.tool?.cancel();
       }
     },
   });

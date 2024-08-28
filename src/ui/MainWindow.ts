@@ -1,13 +1,13 @@
-import { button, label, window } from "openrct2-flexui";
+import { button, label, toggle, window } from "openrct2-flexui";
 import { PeepSelect } from "./PeepSelect";
 import { RemovePeep } from "../utils/RemovePeeps";
-import { PeepIds } from "../utils/stores";
+import { MultiSelectMode, PeepIds } from "../utils/stores";
 import { PeepMessage } from "../utils/PeepMessage";
 
 export const MainWindow = window({
   title: "Peep Remover",
   width: { value: 150, min: 150, max: 150 },
-  height: { value: 165, min: 165, max: 165 },
+  height: { value: 190, min: 190, max: 190 },
   content: [
     button({
       image: "eyedropper",
@@ -38,6 +38,12 @@ export const MainWindow = window({
       text: "Cancel Selection",
       height: 23,
       onClick: () => PeepIds.set([]),
+    }),
+    toggle({
+      text: "Multi Select Mode",
+      disabled: false,
+      height: 23,
+      onChange: (isChecked) => MultiSelectMode.set(isChecked),
     }),
   ],
 });
