@@ -1,6 +1,6 @@
 {
   "name": "openrct2-guest-remover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "description": "A plugin for OpenRCT2 that allows you to easily remove many guests at once.",

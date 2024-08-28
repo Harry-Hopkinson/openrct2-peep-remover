@@ -19,7 +19,6 @@ export function PeepSelect() {
           return;
         }
         GuestIds.set([...GuestIds.get(), EntityId]);
-        park.postMessage(GuestIds.get().toString());
         ui.tool?.cancel();
       }
     },
