@@ -6,7 +6,7 @@ A plugin for OpenRCT2 that allows you to easily remove peeps from your park.
 
 ## Features
 
-- Click on the eyedropper and click as many Peeps as you want to remove.
+- Click on the eyedropper and click as many peeps as you want to remove.
 - Click on the trash can to remove all peeps from the park.
 - Cancel the current action by clicking on the cancel button.
 
