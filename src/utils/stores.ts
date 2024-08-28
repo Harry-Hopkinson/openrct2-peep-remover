@@ -1,5 +1,5 @@
 import { store, WritableStore } from "openrct2-flexui";
 
-let GuestIds: WritableStore<number[]> = store([]);
+let PeepIds: WritableStore<number[]> = store([]);
 
-export { GuestIds };
+export { PeepIds };

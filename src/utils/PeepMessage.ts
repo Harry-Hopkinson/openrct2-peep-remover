@@ -1,7 +1,7 @@
-import { GuestIds } from "./stores";
+import { PeepIds } from "./stores";
 
 export function PeepMessage() {
-  const selectedPeepIds = GuestIds.get();
+  const selectedPeepIds = PeepIds.get();
   if (selectedPeepIds.length === 0) {
     return park.postMessage("No peeps selected");
   }

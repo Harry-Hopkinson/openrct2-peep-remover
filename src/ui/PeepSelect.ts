@@ -1,4 +1,4 @@
-import { GuestIds } from "../utils/stores";
+import { PeepIds } from "../utils/stores";
 
 export function PeepSelect() {
   ui.activateTool({
@@ -18,7 +18,7 @@ export function PeepSelect() {
           ui.showError("You must select a guest", "or staff member");
           return;
         }
-        GuestIds.set([...GuestIds.get(), EntityId]);
+        PeepIds.set([...PeepIds.get(), EntityId]);
         ui.tool?.cancel();
       }
     },

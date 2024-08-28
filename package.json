@@ -1,9 +1,9 @@
 {
-  "name": "openrct2-guest-remover",
+  "name": "openrct2-peep-remover",
   "version": "1.0.2",
   "type": "module",
   "license": "MIT",
-  "description": "A plugin for OpenRCT2 that allows you to easily remove many guests at once.",
+  "description": "A plugin for OpenRCT2 that allows you to easily remove many peeps at once.",
   "scripts": {
     "start": "nodemon --watch ./src --ext js,ts --exec \"npm run build:dev\"",
     "build": "rollup --config rollup.config.js --environment BUILD:production",

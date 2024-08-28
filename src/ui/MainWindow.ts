@@ -1,7 +1,7 @@
 import { button, label, window } from "openrct2-flexui";
 import { PeepSelect } from "./PeepSelect";
 import { RemovePeep } from "../utils/RemovePeeps";
-import { GuestIds } from "../utils/stores";
+import { PeepIds } from "../utils/stores";
 import { PeepMessage } from "../utils/PeepMessage";
 
 export const MainWindow = window({
@@ -37,7 +37,7 @@ export const MainWindow = window({
     button({
       text: "Cancel Selection",
       height: 23,
-      onClick: () => GuestIds.set([]),
+      onClick: () => PeepIds.set([]),
     }),
   ],
 });

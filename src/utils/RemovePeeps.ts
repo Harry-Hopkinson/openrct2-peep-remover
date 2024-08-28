@@ -1,7 +1,7 @@
-import { GuestIds } from "./stores";
+import { PeepIds } from "./stores";
 
 export function RemovePeep(): void {
-  const SelectedPeepIds = GuestIds.get();
+  const SelectedPeepIds = PeepIds.get();
 
   SelectedPeepIds.forEach((id) => {
     const entity = map.getEntity(id);
@@ -10,5 +10,5 @@ export function RemovePeep(): void {
     }
   });
 
-  GuestIds.set([]);
+  PeepIds.set([]);
 }
