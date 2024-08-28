@@ -11,10 +11,6 @@ A plugin for OpenRCT2 that allows you to easily remove peeps from your park.
 - Cancel the current action by clicking on the cancel button.
 - Multi Select Mode allows you to mass click on peeps using the eyedropper tool.
 
-## To Do
-
-- Grid selection to remove multiple peeps like the scenery remove tool.
-
 ## Installation
 
 Download the Javascript file from the releases page and place it in your OpenRCT2 plugin directory. You can find the plugin directory by going to the toolbox icon in OpenRCT2 and clicking on "Open Custom Content Folder" and then navigate to the plugin folder.
