@@ -1,6 +1,6 @@
 {
   "name": "openrct2-peep-remover",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "license": "MIT",
   "description": "A plugin for OpenRCT2 that allows you to easily remove many peeps at once.",
