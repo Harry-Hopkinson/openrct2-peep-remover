@@ -1,5 +1,5 @@
 export const name = "openrct2-peep-remover";
-export const version = "1.0.4";
+export const version = "1.0.5";
 export const type = "intransient";
 export const license = "MIT";
 

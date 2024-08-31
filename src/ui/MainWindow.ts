@@ -1,13 +1,13 @@
 import { button, label, toggle, window } from "openrct2-flexui";
 import { PeepSelect } from "./PeepSelect";
-import { RemovePeep } from "../utils/RemovePeeps";
+import { RemovePeep, RemoveLostGuests } from "../utils/RemovePeeps";
 import { MultiSelectMode, PeepIds } from "../utils/stores";
 import { PeepMessage } from "../utils/PeepMessage";
 
 export const MainWindow = window({
   title: "Peep Remover",
   width: { value: 150, min: 150, max: 150 },
-  height: { value: 190, min: 190, max: 190 },
+  height: { value: 220, min: 220, max: 220 },
   content: [
     button({
       image: "eyedropper",
@@ -44,6 +44,11 @@ export const MainWindow = window({
       disabled: false,
       height: 23,
       onChange: (isChecked) => MultiSelectMode.set(isChecked),
+    }),
+    button({
+      text: "Remove Lost Guests",
+      height: 23,
+      onClick: () => RemoveLostGuests(),
     }),
   ],
 });

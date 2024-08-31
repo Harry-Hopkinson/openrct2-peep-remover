@@ -15,3 +15,15 @@ export function RemovePeep(): void {
 
   PeepIds.set([]);
 }
+
+export function RemoveLostGuests(): void {
+  const guests = map.getAllEntities("guest");
+
+  guests.forEach((guest) => {
+    const peep = guest as Guest;
+    if (peep.getFlag("lost")) {
+      park.postMessage("Removing peep " + peep.id);
+      peep.remove();
+    }
+  });
+}
