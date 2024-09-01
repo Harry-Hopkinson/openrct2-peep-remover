@@ -10,6 +10,7 @@ A plugin for OpenRCT2 that allows you to easily remove peeps from your park.
 - Click on the trash can to remove all peeps from the park.
 - Cancel the current action by clicking on the cancel button.
 - Multi Select Mode allows you to mass click on peeps using the eyedropper tool.
+- Remove guests with flags opens a window where you can remove guests with certain flags (e.g. nausea, angry, etc).
 
 ## Installation
 
