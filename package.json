@@ -1,6 +1,6 @@
 {
   "name": "openrct2-peep-remover",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "license": "MIT",
   "description": "A plugin for OpenRCT2 that allows you to easily remove many peeps at once.",
@@ -12,16 +12,16 @@
     "lint": "prettier --check ."
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-terser": "^0.4.0",
-    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@rollup/plugin-typescript": "^12.3.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.2.5",
     "rollup": "^4.0.0",
     "tslib": "^2.5.0",
-    "typescript": "^5.4.5"
+    "typescript": "^6.0.3"
   },
   "dependencies": {
-    "openrct2-flexui": "^0.1.0-prerelease.15"
+    "openrct2-flexui": "^0.1.0-prerelease.20"
   }
 }
